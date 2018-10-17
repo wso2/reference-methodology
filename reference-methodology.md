@@ -95,9 +95,15 @@ The maturity model has a definite vertical separation of each stage, but most or
 
 This approach helps an organization in planning the transformation and where to put more effort and focus. 
 
-For example, an organization might move to a complete cloud-native infrastructure with a mature CI/CD pipeline, but the team structure might not be podular enough to have a genuinely agile enterprise. 
+For example, an organization might move to a complete cloud-native infrastructure with a mature CI/CD pipeline, but the team structure might not be podular enough to have a genuinely agile enterprise.
 
+## How to Move to the RIght in the Maturity Model: Methodology
 
+>***“ Transformation is a journey without a destination”*** - Marilyn Ferguson
+
+### Approach: Iterative business transformation
+
+The overall approach of moving from one stage to another is iterative. Plan, implement, review, improve, and go back to plan. Also, start small by beginning with a small group, a single project, and one line of business instead of going for a company-wide approach. Skipping stages is dangerous because any change takes time for people to adopt and become productive. Therefore, minimizing change at each stage is an important factor in being able to continue business as usual while the transition is happening in parallel.
 
 
 
