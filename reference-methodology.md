@@ -81,7 +81,7 @@ Together, culture and the architecture create a platform for enabling people, pr
 |  | Monolithic | Fast Waterfall | API-Driven | Early Agility | Integration Agile |
 |---------|---------|---------|--------|--------|-------|
 |**People**|***Centralized***:Team is structured around a single project. |***COE***:Single or large development teams are controlled and governed by multiple centers of excellence (COE). Governance is complex.|***API Teams***:Teams are distributed; parallel projects are running, but dependencies and the execution model bring them back to waterfall.|***Decentralized***:Has distributed teams with centralized technology platforms and EA practices that create a COE.|***Self-Organised Teams***:Has decentralized teams and decision-making. Projects and systems connect by using the DevOps pipeline. Teams can rapidly and independently deliver projects.|
-|**Process**|Waterfall|Fast Waterfall|API Iterative|Semi-Continuous|Continuous|
+|**Process**|***Waterfall***:ollows a waterfall process. Executes one project at a time.|***Fast Waterfall***:Follows a waterfall or spiral method. Has lengthy project release cycles. Is highly non-agile.|***API Iterative***:End-user applications and API development follow an agile process by dividing into small teams.|***Semi-Continuous***:Continuous processes are tied to the central platform. Has one build pipeline, which creates another COE|***Continuous***:Has a pipeline-first approach for every project and individual release pipelines for each team/project. Processes are fully automated.|
 |**Technology**|Silo|EAI/ESB|API-Driven|Early Agility|Continuous Agility|
 |**Digital Alignment**|Separate|Ad-hoc|Early Strategic|Digital-First|Adaptive|
 
