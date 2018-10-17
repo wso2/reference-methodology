@@ -133,7 +133,7 @@ The overall approach of moving from one stage to another is iterative. Plan, imp
 
 ### API-Driven to Early Agility
 
-[apid-eagile](/media/rm-apid-eagile-25.png)
+![apid-eagile](/media/rm-apid-eagile-25.png)
 
 **People**: Distribute the decision-making and management to each project team. Provide technical capabilities as a shared service through a platform. Enforce governance and policies through the platform.
 
