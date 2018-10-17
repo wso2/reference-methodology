@@ -119,6 +119,18 @@ The overall approach of moving from one stage to another is iterative. Plan, imp
 
 **Digital Alignment**: Build internal applications and dashboards by utilizing the consolidated data gathered by integrating internal systems and partners.
 
+### Fast-Waterfall to API-Driven
+
+![fw-apid](/media/rm-fw-apid-25.png)
+
+**People**: Build multiple project plans and groups by planning the execution of projects in parallel.
+
+**Process**: Introduce agility by converting API and end-user application development teams into small teams. Use APIs as the connectors for these small teams.
+
+**Technology**: Start an API program, and expose the core business capabilities created by integrating internal and external systems as APIs. Follow API design guidelines [5], and standardize the APIs in the industry.  Encourage internal and external app developers to use the APIs when developing applications to consume business functions and data. Use federation, and move towards a segmented architecture from the layard architecture.
+
+**Digital Alignment**: Encourage internal and external app developers to deliver creative and competitive ideas as a digital experience for consumers by utilizing the APIs.  Allow partners to seamlessly connect using the APIs.
+
 
 
 
