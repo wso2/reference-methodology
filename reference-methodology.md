@@ -58,6 +58,22 @@ Although the reference methodology is fundamentally about people and process, it
 
 As we described earlier, architecture is the foundation for technology. Architecture references the maturity of the overall enterprise and integration architecture of the organization as well as the technology adoption. In the WSO2 Reference Architecture (RM) for Agility paper [1] we discussed three emerging architectural patterns; layered, segmented and cell-based, which can represent the enterprise and integration architecture implemented or planned in any organization. The desired architecture pattern has a direct impact on the technical usage and how an organization can enforce an agile approach (iterative architecture) in practice.
 
+![evolution of architecture](/media/ra-evolution.png)
+
+The architecture dimension represents the maturity of internal and external integration of the business, level of integration as well as how seamless.  
+
+### Digital Alignment
+
+Digital alignment is an outcome of the improvement of people, process and technology. Digital alignment mainly focuses on the maturity of digital transformation, both internally and externally, with employees and customers. Internally it affects how employees benefit from digital products and endpoints, such as APIs, events and streams, to increase their productivity and improve their decision-making process. Externally, it affects the experiences that customers and partners have with the digital products and endpoints focused on enabling an external transformation. In the current digital era, consumers are looking for a real-time, personalized, geo-sensitive and predictive experience from the products and the services they use.  
+
+### Platform for Organizational Maturity
+
+![RM platform](/media/rm-platform.png)
+
+Together, culture and the architecture create a platform for enabling people, process, and technology to operate and improve. Culture plays the primary role in supporting people while architecture has the primary role in supporting technology. However, both of these foundations have overlapping and complementary roles in supporting all three pillars of digital alignment: people, process, and technology.
+
+
+
 
 
 
