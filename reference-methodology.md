@@ -131,6 +131,17 @@ The overall approach of moving from one stage to another is iterative. Plan, imp
 
 **Digital Alignment**: Encourage internal and external app developers to deliver creative and competitive ideas as a digital experience for consumers by utilizing the APIs.  Allow partners to seamlessly connect using the APIs.
 
+### API-Driven to Early Agility
+
+[apid-eagile](/media/rm-apid-eagile-25.png)
+
+**People**: Distribute the decision-making and management to each project team. Provide technical capabilities as a shared service through a platform. Enforce governance and policies through the platform.
+
+**Process**: Enhance the agile process introduced in the previous stage by bringing in continuous integration and continuous delivery (CI/CD) by associating with the DevOps team that manages the centralized infrastructure and technology platforms.
+
+**Technology**: Move to a segmented architecture based on the scope of the services. Allow decentralized deployment whenever possible. Encourage the use of automated DevOps practices, and initiate continuous integration and delivery. Start using lightweight deployment environments, such as hypervisor-based virtual machines and containers.  
+
+**Digital Alignment**: Provide a unique digital identity for each internal and external consumer. Build a real-time and near real-time information exchange with consumers through digital apps. Extend the consumer's digital reach to multiple channels in addition to web and mobile by extending Internet of Things (IoT) capabilities.
 
 
 
