@@ -41,8 +41,21 @@ The maturity model defined here contains five stages, and each stage is defined 
 People and their ability to define solutions by understanding the current situation is the most important thing for an organization. Culture and the organizational structure control the way people operate, and it is the platform for enabling people’s productivity. Culture plays an important role in adapting to change. Habits and best practices inherited from an organization’s culture are more powerful than those merely enforced by policies.
 
 ![org structure](/media/rm-org-structure.png)
+The organizational and decision-making structure affects how innovative ideas from each part of the organization are implemented and delivered to end-users. Traditional divided pyramid, hub and spoke structures create  a center-of-excellence (COE) mentality and can rapidly block the flow of innovation. As an alternative, we propose a podular organizational structure, which allows organizations to become adaptive, innovative and agile. People (organization & culture) must move from sequential waterfall and waterfall-agile approaches which include siloed “center of excellence” teams, to a fundamentally decentralized set of agile teams. In a podular structure, each of these teams then own the responsibility for building, running and managing their integration applications. One of the main characteristics of a podular organization structure is each pod act as an individual business unit [2] which allows to operate and take decisions independently as well as add the people with the required skills to the team.  
 
+### Process
 
+Process defines the steps an organization should take to achieve its goals. A process is connected with the people involved in its execution, as well as the technology being implemented to optimize their productivity. This document mainly focuses on defining a meta-process.
+
+![sdp timeline](/media/rm-sdp-timeline.png)
+
+While many software development processes have been introduced, we can put them all into two buckets: waterfall and agile. To date, there have been many attempts to become truly agile, but it has not been an easy task due to several technical and cultural constraints. As a result, many enterprises have had to fall back to waterfall-agile or fast waterfall processes. However, now we are living in an era with of DevOps improvements and extremely flexible deployment infrastructures, which create continuous processes that allow teams to operate in a truly agile manner.
+
+### Technology
+
+Although the reference methodology is fundamentally about people and process, it has technology requirements that must be met to enable the right processes and approach. For example, decentralized continuous integration/continuous development (CI/CD) with canary deployment requires a cloud orchestration model, such as Kubernetes. Agile development of integration applications requires integration tools that support continuous build, test and deployment. This is pushing a shift away from configuration-over-code approaches such as an enterprise service bus (ESB) towards code-over-configuration approaches that bring type validation and integrated development environment (IDE) integration and work more effectively with version control and CI/CD tooling. Integration applications must work in cloud native environments, including containers and serverless. Integration applications must be observable using distributed tracing and monitoring tools.
+
+As we described earlier, architecture is the foundation for technology. Architecture references the maturity of the overall enterprise and integration architecture of the organization as well as the technology adoption. In the WSO2 Reference Architecture (RM) for Agility paper [1] we discussed three emerging architectural patterns; layered, segmented and cell-based, which can represent the enterprise and integration architecture implemented or planned in any organization. The desired architecture pattern has a direct impact on the technical usage and how an organization can enforce an agile approach (iterative architecture) in practice.
 
 
 
