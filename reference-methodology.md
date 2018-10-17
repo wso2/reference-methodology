@@ -84,6 +84,18 @@ Together, culture and the architecture create a platform for enabling people, pr
 |**Process**|***Waterfall***:ollows a waterfall process. Executes one project at a time.|***Fast Waterfall***:Follows a waterfall or spiral method. Has lengthy project release cycles. Is highly non-agile.|***API Iterative***:End-user applications and API development follow an agile process by dividing into small teams.|***Semi-Continuous***:Continuous processes are tied to the central platform. Has one build pipeline, which creates another COE|***Continuous***:Has a pipeline-first approach for every project and individual release pipelines for each team/project. Processes are fully automated.|
 |**Technology**|***Silo***:Legacy and COTS* operate as silos. There is little or no EA practice. Data is aggregated manually.|***EAI/ESB***:Relies on legacy EAI and/or ESB technologies. Is highly non-agile|***API-Driven***:API management is used within organizations to streamline governance and provide decentralized discovery.|***Early Agility***:Uses lightweight ESBs with continuous integration and test, but still centralized, with manual discovery, governance, and other processes. Early adoption to Microservice architecture is occuring.|***Continuous Agility***:Has automated decentralized integration with APIs, streams and events published and discovered in federated registries, and CI/CD. Uses a cell-based architecture.|
 |**Digital Alignment**|***Separate***:Business runs individually. Edge of the business is disconnected from management.|***Ad-hoc***:The business connects with partners and has initiated digital transformation. However, only internal consumers benefit.|***Early Strategic***:Provides a basic digital experience for the customer in a batch or near real-time manner.|***Digital-First***:Is connected with the ecosystem. Provides a multi-channel digital experience to customers in real time or near real time. Each consumer has a digital identity.|***Adaptive***:Offers a comprehensive multi-channel digital experience for consumers. Adapts based on consumer feedback and demand using analytics and AI.|
+*Commercial off-the-shelf software. **Center of Excellence.
+
+## Maturity Model : Pragmatic view
+
+![maturity model pv](/media/rm-maturity-model-pv.png)
+
+The maturity model has a definite vertical separation of each stage, but most organizations might find it hard to fit into one vertical pillar. As a result, an organization may align with three different horizontal stages as depicted in the diagram. 
+
+This approach helps an organization in planning the transformation and where to put more effort and focus. 
+
+For example, an organization might move to a complete cloud-native infrastructure with a mature CI/CD pipeline, but the team structure might not be podular enough to have a genuinely agile enterprise. 
+
 
 
 
