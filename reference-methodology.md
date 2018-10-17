@@ -72,6 +72,11 @@ Digital alignment is an outcome of the improvement of people, process and techno
 
 Together, culture and the architecture create a platform for enabling people, process, and technology to operate and improve. Culture plays the primary role in supporting people while architecture has the primary role in supporting technology. However, both of these foundations have overlapping and complementary roles in supporting all three pillars of digital alignment: people, process, and technology.
 
+### Maturity Model: Current outlook
+
+![maturity model](/media/rm-maturity-model.png)
+
+
 
 
 
