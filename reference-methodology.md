@@ -76,7 +76,14 @@ Together, culture and the architecture create a platform for enabling people, pr
 
 ![maturity model](/media/rm-maturity-model.png)
 
+## Agile Maturity Model: Matrix
 
+|  | Monolithic | Fast Waterfall | API-Driven | Early Agility | Integration Agile |
+|---------|---------|---------|--------|--------|-------|
+|**People**|***Centralized***:Team is structured around a single project. |***COE***:Single or large development teams are controlled and governed by multiple centers of excellence (COE). Governance is complex.|***API Teams***:Teams are distributed; parallel projects are running, but dependencies and the execution model bring them back to waterfall.|***Decentralized***:Has distributed teams with centralized technology platforms and EA practices that create a COE.|***Self-Organised Teams***:Has decentralized teams and decision-making. Projects and systems connect by using the DevOps pipeline. Teams can rapidly and independently deliver projects.|
+|**Process**|Waterfall|Fast Waterfall|API Iterative|Semi-Continuous|Continuous|
+|**Technology**|Silo|EAI/ESB|API-Driven|Early Agility|Continuous Agility|
+|**Digital Alignment**|Separate|Ad-hoc|Early Strategic|Digital-First|Adaptive|
 
 
 
