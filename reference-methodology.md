@@ -109,7 +109,7 @@ The overall approach of moving from one stage to another is iterative. Plan, imp
 
 ### Monolithic to Fast-Waterfall
 
-![monolith-fw](/media/rm-monolith-fw.png)
+![monolith-fw](/media/rm-monolith-fw-25.png)
 
 **People**: Organize development teams by introducing the basic software development methodologies described above. Incorporate governance by introducing a source control system and test frameworks. Code quality and design reviews can be manual.
 
