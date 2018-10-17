@@ -36,6 +36,13 @@ A maturity model defines how an organization can measure the current stage of in
 
 The maturity model defined here contains five stages, and each stage is defined in three dimensions. Let's look at each dimension in detail. 
 
+### People
+
+People and their ability to define solutions by understanding the current situation is the most important thing for an organization. Culture and the organizational structure control the way people operate, and it is the platform for enabling people’s productivity. Culture plays an important role in adapting to change. Habits and best practices inherited from an organization’s culture are more powerful than those merely enforced by policies.
+
+![org structure](/media/rm-org-structure.png)
+
+
 
 
 
