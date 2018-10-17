@@ -103,6 +103,8 @@ For example, an organization might move to a complete cloud-native infrastructur
 
 ### Approach: Iterative business transformation
 
+![iterative bt](/media/rm-iterative-trans.png)
+
 The overall approach of moving from one stage to another is iterative. Plan, implement, review, improve, and go back to plan. Also, start small by beginning with a small group, a single project, and one line of business instead of going for a company-wide approach. Skipping stages is dangerous because any change takes time for people to adopt and become productive. Therefore, minimizing change at each stage is an important factor in being able to continue business as usual while the transition is happening in parallel.
 
 
