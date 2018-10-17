@@ -107,6 +107,18 @@ For example, an organization might move to a complete cloud-native infrastructur
 
 The overall approach of moving from one stage to another is iterative. Plan, implement, review, improve, and go back to plan. Also, start small by beginning with a small group, a single project, and one line of business instead of going for a company-wide approach. Skipping stages is dangerous because any change takes time for people to adopt and become productive. Therefore, minimizing change at each stage is an important factor in being able to continue business as usual while the transition is happening in parallel.
 
+### Monolithic to Fast-Waterfall
+
+![monolith-fw](/media/rm-monolith-fw.png)
+
+**People**: Organize development teams by introducing the basic software development methodologies described above. Incorporate governance by introducing a source control system and test frameworks. Code quality and design reviews can be manual.
+
+**Process**: Introduce a primary software development process, such as the waterfall or spiral instead of using an ad-hoc development process.
+
+**Technology**: Define an enterprise architecture using a layered architecture pattern. Categorize each layer based on the functionality, most organizations follow a “system of system” (SoS) [4] view when defining each architecture layer. Start connecting internal and external systems by using integration and messaging middleware.
+
+**Digital Alignment**: Build internal applications and dashboards by utilizing the consolidated data gathered by integrating internal systems and partners.
+
 
 
 
