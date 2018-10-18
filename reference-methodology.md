@@ -149,7 +149,37 @@ The primary goal of this paper is to help make your organization more integratio
 
 ![integration agile](/media/rm-integration-agile-40.png)
 
+### People
 
+#### Agile-core
+
+Because being iterative is fundamental to an integration-agile organization, culture transformation must also be handled iteratively. Forming a small group which we call the Agile-core is the first step in this process. The agile-core team is a critical success factor in the entire transformation journey of an organization. Therefore be mindful when picking people for this team. There are three rules to follow. First, pick the handful of people who accept change and adapt quickly. Secondly, pick the people who have the required skill set or can easily be trained. The third is to pick a diverse set of people who represent different levels and roles. The idea here to follow the train the trainer and let the agile-core to train others and transform the entire organization into an agile, digital workforce.  Many approaches can taken in this transformation activity, such as structured training, boot camps, hackathons, lunch-and-learn sessions, and innovation labs. 
+
+#### Self-Organized teams 
+
+We noticed distributed teams with parallel running projects in the early maturity stages. However, distributed teams depend on various Centers of Excellence (CoE) when it comes to end-to-end delivery of a project. The motivation behind self-organized teams is to have a proper decentralized structure. A podular organizational structure provides the platform for creating self-organized teams and operating successfully. Self-organized teams plan, build, run and manage their applications independently. At the same time, the business functionality owned is exposed by using endpoints which expose data as APIs, events, and streams. 
+
+#### Everyone is an Agile Master
+
+Most agile methodologies encourage having an agile master for each agile team. However, self-organized teams operate differently. Team members are engaged, empowered and entrusted to implement innovative ideas and deliver as digital products to end-users. Therefore every team member acts as an agile master in different stages and areas of the project, regardless of any hierarchical levels assigned by the organization.  
+
+### Process
+
+#### Iterative
+
+An integration agile organization uses an iterative execution model in business and technical processes. It is easy to define iterative processes but hard to execute without a conventional culture and architecture. The sub-topics we discuss under Organization & Culture are vital to creating a supportive culture. Fundamentals of the iterative approach are about starting small while having a bigger vision and continuously iterating towards the target. Planning iterations that range between one month to three months is effective.
+
+#### Continuous (Agile + DevOps)
+
+The continuous process we describe in this document is a combination of agility and enhanced DevOps, which is part of development and utilizes cloud-native infrastructure. The combination of DevOps and development enables an end-to-end automated continuous process. This approach streamlines the release process and increases development teams’ productivity.  
+
+#### Code over Configuration
+
+A configuration-based approach, coupled with the utilization of heavy middleware layers, is the primary blocker that prevents development teams from operating in a real agile mode. It is difficult to link configuration-driven development models with a continuous release pipeline and fully automated application lifecycle with multiple lifecycle stages (environments). Additionally, most of the middleware runtimes are not microservices and cloud-native friendly. As a solution, a coding-based approach that uses a programing language optimized for integration will allow teams to meet the expected agility and compliance with a continuous pipeline.
+
+#### Integration First
+
+The programming model has changed during the last decade to an integration-first approach. This is mainly due to the programmable and reusable endpoints that enterprises have created using various distributed architecture patterns, such as service-oriented architecture (SOA), event-driven architecture (EDA), and microservices architecture (MSA). As a result, every programmer is an integration engineer today. Moreover, the modern enterprise architecture is integration driven, with apps and services that each have tens to hundreds of composable endpoints.
 
 
 
