@@ -181,6 +181,70 @@ A configuration-based approach, coupled with the utilization of heavy middleware
 
 The programming model has changed during the last decade to an integration-first approach. This is mainly due to the programmable and reusable endpoints that enterprises have created using various distributed architecture patterns, such as service-oriented architecture (SOA), event-driven architecture (EDA), and microservices architecture (MSA). As a result, every programmer is an integration engineer today. Moreover, the modern enterprise architecture is integration driven, with apps and services that each have tens to hundreds of composable endpoints.
 
+### Technology
+
+#### Pipeline tuned
+
+Developers spend much time building their sandbox environments and linking them to the source control system and build pipeline. Sometimes they do not follow standards due to manual configuration and linking. The concept of a pipeline ready is a solution for that which provides the sandbox environment and links to the development tools in a fraction of time using an automated process. Pipeline readiness increases the productivity of developers and enforces governance and development standards. Additionally, it makes the developers own most of the DevOps responsibilities from day-1 and maintain project specific CI/CD pipelines.
+
+#### Multi environment based application lifecycle
+
+The traditional development and deployment lifecycle of an application build is based on a minimum of three environments: development, testing and production. Some organizations have added a staging environment as a safe site to debug production issues. However, the iterative and rapid release nature of the self-organized team requires the addition of more environments to be productive, as well as have an infrastructure, CI/CD pipeline, and DevOps practice support. We are looking at adding blue-green,  canary, and automated A/B testing environments to the application lifecycle.
+
+#### Test driven development
+
+Traditionally testing of an application is a secondary action executed by a separate group by creating another silo or a CoE. In an integration agile environment, the project team itself is responsible for delivering a high-quality application. (Remember, project teams plan, build, run and manage the application.) Therefore testing is part of the project team, which is executed by the developers. Automated tests (unit, performance, and integration) with test data and test systems (e.g., mock services) have to be created before the development and automated tests run against the code from day-one. Developers are required to enrich the test framework by introducing many test scenarios based on various business and technical use-cases (functional and non-functional). Some organizations call it the test grid, which strengthens the quality of the application.
+
+#### Cloud-native
+
+The heavily decentralized nature of a self-organized team and distributed DevOps responsibilities require a proper infrastructure to support integration-agile organizations. A cloud-native architecture based on containers and container orchestration systems helps development teams to utilize a company-wide standardized infrastructure to deploy and run applications and any dependencies. Using containers to autoscale, package applications, tune the pipeline, and support CI/CD by rapid environment provisioning are a few basic cloud-native capabilities that can be utilized by self-organized teams. Also, advanced features like event-driven and function-based architectures can utilize a cloud-native infrastructure to enhance the overall integration agility.
+
+#### Cell-based architecture
+
+Emerging architectural patterns, such as layered and segmented architectures, are centralized or depend on centralized CoEs. On the other hand, microservices defined in a microservice architecture (MSA) are too granular to treat as an architecture unit. Hence, self-controlled teams require a reference architecture to define the logical and physical architecture boundaries in the enterprise as a whole.  
+
+We introduced the cell-based reference architecture[1] as a solution for this problem to have a microservice and cloud-native architecture leading enterprise architecture to utilize in an integration-agile environment. The cell-based architecture enables the conversion of legacy systems, services, and data into cells, and it reuses the functionality in combination with the cloud-native cells. In a nutshell, the cell-based architecture makes it possible to build on brownfield development.
+
+#### Open source
+
+In an integration-agile environment, you expect to do many innovations in labs (note that research and development is part of the self-organized teams), as well as rapid application development by following iterative execution model. In such an environment, you cannot afford to wait for lengthy (and slow) procurement processes to adopt the technologies that will allow you to deliver on your innovative ideas. Open source plays a significant role here by giving you access to robust and stable technologies that are used and contributed by a broader community. You can pick technologies delivered under business-friendly open source licenses, such as Apache 2.0, to avoid any corporate red lines in the future.
+
+### Digital Alignment
+
+### Consumer-driven requirements
+
+One of the critical characteristics of a podular architecture is bringing self-organized development teams to the edge of the business and providing access to consumers. Minimizing the gap between the consumer and the producer helps to implement solutions that are actually required by the consumers without working on hypothetical requirements that trickle down through many CoEs. The development teams can have a direct dialog with the consumers using various channels, analyze consumer behavior, and review the market outlook when identifying and prioritizing business requirements. Small iterations and rapid application development help self-organized teams to deliver a feature quickly and test run it with the actual consumers (including the rollback of a feature). Technical teams tend to complicate the requirements by looking at it from a technical point of view. In an integration-agile environment the requirements teams look at are from the consumer (or business) point of view and simply based on the consumer experience and competitive advantage. 
+
+#### Start with a MVP
+
+The consumer-driven nature and business first culture result in rapid changes to the requirements and the user experience. Consumers are eager to consume new digital experiences and make themselves productive during day-to-day activities. Once they don't get the experience they are looking for, they switch the service providers. Also, there is a competitive advantage in introducing a new idea to the market before competitors provide the same. Planning, implementing and launching a minimal viable product (MVP) to the market is the best way to stick to the iterative execution model, rather than having long product delivery cycles that follow waterfall or fast-waterfall methodologies. Self-organized teams get the foundation and platform by staying at the edge, close to consumers to understand them correctly and define the MVP.
+
+#### Deliver digital-native applications
+
+As we explained earlier in this paper, consumers in the modern digital era come with certain predefined expectations. To reemphasize the current digital expectations, these include real-time, personalized, geo-sensitive and predictable experiences from digital applications. Disruptive applications released from the self-organized teams have to be digital-native to win the market and provide long-term services for the consumers. 
+
+#### Enforce feedback loops
+
+A useful iterative execution model requires feedback coming from usage and runtime behavior. A cell-based architecture enforces the cell gateways to route communications and  provide enough hooks to capture the data required to identify feedback about usage and the behavior of runtimes. Constructive feedback has to be considered when planning the next iteration in order to improve the user experience and runtime behavior.
+
+## Conclusions
+
+Digital transformation is the critical success factor of the modern enterprises, and industry leaders have identified digital transformation as the fourth industrial revolution. Therefore, organizations have to plan and execute the transformation without losing their existing people, systems, data and customers. However, integration has become an essential factor in application development with the explosion of consumable endpoints we created in last two decades by building highly distributed systems. Organizations are trying to follow agile execution models for their integration but fall back to the traditional waterfall or spiral models due to non-alignment of the organizational structure, culture, architecture, technology usage, and digital strategy of their integration teams.
+This paper outlines a maturity model for organizations to identify where they stand with regard to their integration agility, and to help plan a transformation path to become truly integration agile. 
+The content gathered and offered is based on our experience working with many enterprises on their integration and digital transformation initiatives. 
+
+## References
+
+[1] WSO2 Reference Architecture for Agility paper: https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md
+
+[2] Dave Gray - The Connected Company - http://www.xplaner.com/connectedco/
+
+[3] Iterative, Segmented Architecture - https://www.slideshare.net/asankama/iterative-architecture-your-path-to-ontime-delivery
+
+[4] System of Systems (SoS):  https://en.wikipedia.org/wiki/System_of_systems
+
+[5] API Design Guidelines: https://wso2.com/whitepapers/wso2-rest-apis-design-guidelines/
+
 
 
 
