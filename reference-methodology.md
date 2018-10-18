@@ -143,6 +143,14 @@ The overall approach of moving from one stage to another is iterative. Plan, imp
 
 **Digital Alignment**: Provide a unique digital identity for each internal and external consumer. Build a real-time and near real-time information exchange with consumers through digital apps. Extend the consumer's digital reach to multiple channels in addition to web and mobile by extending Internet of Things (IoT) capabilities.
 
+## Early Agility to Integration Agile 
+
+The primary goal of this paper is to help make your organization more integration agile. Hence we are emphasizing this section compared to the rest of the transition steps already described. Most organizations have an active effort to move to the right in the maturity model and fulfill consumer demand and stay on top of the competition. Best practices and the guidelines provided in this section helps the organizations to move right in the maturity model regardless of the current maturity level.
+
+![integration agile](/media/rm-integration-agile.png)
+
+
+
 
 
 
