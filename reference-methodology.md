@@ -147,7 +147,7 @@ The overall approach of moving from one stage to another is iterative. Plan, imp
 
 The primary goal of this paper is to help make your organization more integration agile. Hence we are emphasizing this section compared to the rest of the transition steps already described. Most organizations have an active effort to move to the right in the maturity model and fulfill consumer demand and stay on top of the competition. Best practices and the guidelines provided in this section helps the organizations to move right in the maturity model regardless of the current maturity level.
 
-![integration agile](/media/rm-integration-agile.png)
+![integration agile](/media/rm-integration-agile-50.png)
 
 
 
