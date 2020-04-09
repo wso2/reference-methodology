@@ -178,6 +178,8 @@ An integration agile organization uses an iterative execution model in business 
 
 The continuous process we describe in this document is a combination of agility and enhanced DevOps, which is part of development and utilizes cloud-native infrastructure. The combination of DevOps and development enables an end-to-end automated continuous process. This approach streamlines the release process and increases development teams’ productivity.  
 
+**Programmability** is a critical factor for true agility. This approach goes beyond infrastructure automation, which is a common practice by enabling programmatic access to automate actions, procedures, processes, and runtimes used in an application’s entire lifecycle. With programmability and end-to-end automation, teams can increase productivity and flexibility and quickly decommission repeatable tasks; they can also spend more time on implementing innovative ideas.
+
 #### Code over Configuration
 
 A configuration-based approach, coupled with the utilization of heavy middleware layers, is the primary blocker that prevents development teams from operating in a real agile mode. It is difficult to link configuration-driven development models with a continuous release pipeline and fully automated application lifecycle with multiple lifecycle stages (environments). Additionally, most of the middleware runtimes are not microservices and cloud-native friendly. As a solution, a coding-based approach that uses a programing language optimized for integration will allow teams to meet the expected agility and compliance with a continuous pipeline.
