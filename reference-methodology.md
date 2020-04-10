@@ -1,7 +1,7 @@
 <h1 align="center"> Reference Methodology for Agility </center></h1>
 <p align="center">
 <i>
-Version Q2-2018<br/>
+Version Q1-2020<br/>
 </i>
 </p>
 
@@ -178,7 +178,7 @@ An integration agile organization uses an iterative execution model in business 
 
 The continuous process we describe in this document is a combination of agility and enhanced DevOps, which is part of development and utilizes cloud-native infrastructure. The combination of DevOps and development enables an end-to-end automated continuous process. This approach streamlines the release process and increases development teams’ productivity.  
 
-**Programmability** is a critical factor for true agility. This approach goes beyond infrastructure automation, which is a common practice by enabling programmatic access to automate actions, procedures, processes, and runtimes used in an application’s entire lifecycle. With programmability and end-to-end automation, teams can increase productivity and flexibility and quickly decommission repeatable tasks; they can also spend more time on implementing innovative ideas.
+_Programmability_ is a critical factor for true agility. This approach goes beyond infrastructure automation, which is a common practice by enabling programmatic access to automate actions, procedures, processes, and runtimes used in an application’s entire lifecycle. With programmability and end-to-end automation, teams can increase productivity and flexibility and quickly decommission repeatable tasks; they can also spend more time on implementing innovative ideas.
 
 #### Code over Configuration
 
@@ -210,7 +210,7 @@ The heavily decentralized nature of a self-organized team and distributed DevOps
 
 Emerging architectural patterns, such as layered and segmented architectures, are centralized or depend on centralized CoEs. On the other hand, microservices defined in a microservice architecture (MSA) are too granular to treat as an architecture unit. Hence, self-controlled teams require a reference architecture to define the logical and physical architecture boundaries in the enterprise as a whole.  
 
-We introduced the cell-based reference architecture[1] as a solution for this problem to have a microservice and cloud-native architecture leading enterprise architecture to utilize in an integration-agile environment. The cell-based architecture enables the conversion of legacy systems, services, and data into cells, and it reuses the functionality in combination with the cloud-native cells. In a nutshell, the cell-based architecture makes it possible to build on brownfield development.
+We introduced the [cell-based architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md)[1] as a solution for this problem to have a microservice and cloud-native architecture leading enterprise architecture to utilize in an integration-agile environment. The cell-based architecture enables the conversion of legacy systems, services, and data into cells, and it reuses the functionality in combination with the cloud-native cells. In a nutshell, the cell-based architecture makes it possible to build on brownfield development.
 
 #### Open source
 
