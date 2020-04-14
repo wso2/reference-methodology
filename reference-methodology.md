@@ -218,7 +218,7 @@ In an integration-agile environment, you expect to do many innovations in labs (
 
 ### Digital Alignment
 
-### Consumer-driven requirements
+#### Consumer-driven requirements
 
 One of the critical characteristics of a podular architecture is bringing self-organized development teams to the edge of the business and providing access to consumers. Minimizing the gap between the consumer and the producer helps to implement solutions that are actually required by the consumers without working on hypothetical requirements that trickle down through many CoEs. The development teams can have a direct dialog with the consumers using various channels, analyze consumer behavior, and review the market outlook when identifying and prioritizing business requirements. Small iterations and rapid application development help self-organized teams to deliver a feature quickly and test run it with the actual consumers (including the rollback of a feature). Technical teams tend to complicate the requirements by looking at it from a technical point of view. In an integration-agile environment the requirements teams look at are from the consumer (or business) point of view and simply based on the consumer experience and competitive advantage. 
 
@@ -233,6 +233,10 @@ As we explained earlier in this paper, consumers in the modern digital era come 
 #### Enforce feedback loops
 
 A useful iterative execution model requires feedback coming from usage and runtime behavior. A cell-based architecture enforces the cell gateways to route communications and  provide enough hooks to capture the data required to identify feedback about usage and the behavior of runtimes. Constructive feedback has to be considered when planning the next iteration in order to improve the user experience and runtime behavior.
+
+#### Transformative purpose
+
+Defining the transformation strategy based on a purpose helps to run a successful transformation program as well as provide results align with the business. Different frameworks can use to achieve this, most popular frameworks are OKR (Objectives and Key Results) and MTP (Massively Transformative Purpose). Defining the purpose and measurable results is an exercise the digital strategist or the steering committee required to conduct before executing the activities of the transformation strategy. Having a thorough analysis of the internal priorities, customer demand, competition, and market outlook help to define the transformative purpose. The maturity model can use to start the process by conducting an assessment as well as a guide during the transformation journey.
 
 ## Conclusions
 
