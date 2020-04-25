@@ -247,8 +247,16 @@ The content gathered and offered is based on our experience working with many en
 ## Highlights of the next version
 
 ### Cellular enterprise
+
 ![cellular enterprise](/media/rm-cellular-ent.png)
 
+| Cell Type | Description | Unit | Mapping |
+|---------|---------|---------|--------|--------|
+| C-Cell | Composite Cell | Composite | Decentralized deployment |
+| D-Cell | Development Cell | Development sandbox | Autonomous development |
+| A-Cell | Architecture Cell | Architecture block | Cell-based Architecture |
+| B-Cell | Business Cell | Business function | Cellular business model |
+| H-Cell | Human Cell | Team of teams | Podular organization|  
 
 ## References
 
