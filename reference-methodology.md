@@ -248,7 +248,7 @@ The content gathered and offered is based on our experience working with many en
 
 ### Cellular enterprise
 
-![cellular enterprise](/media/rm-cellular-ent.png)
+![cellular enterprise](/media/rm-cellular-ent-75.png)
 
 | Cell Type | Description | Unit | Mapping |
 |---------|---------|---------|--------|
