@@ -247,6 +247,7 @@ The content gathered and offered is based on our experience working with many en
 ## Highlights of the next version
 
 ### Cellular enterprise
+Using biology as a metaphor to define modern organization structure build with a podular architecture consist of many self-organized teams. Cellular enterprise defines units associated with an application from the human who designs and builds to a composite that deploys at the end. 
 
 ![cellular enterprise](/media/rm-cellular-ent-30.png)
 
