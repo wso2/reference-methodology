@@ -254,9 +254,9 @@ The content gathered and offered is based on our experience working with many en
 |---------|---------|---------|--------|
 | C-Cell | Composite Cell | Composite | Decentralized deployment |
 | D-Cell | Development Cell | Development sandbox | Autonomous development |
-| A-Cell | Architecture Cell | Architecture block | Cell-based Architecture |
+| A-Cell | Architecture Cell | Architecture block | [Cell-based Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md) |
 | B-Cell | Business Cell | Business function | Cellular business model |
-| H-Cell | Human Cell | Team of teams | Podular organization|  
+| H-Cell | Human Cell | Self-orgenized teams | Podular organization (team of teams) |  
 
 ## References
 
