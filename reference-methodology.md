@@ -244,6 +244,12 @@ Digital transformation is the critical success factor of the modern enterprises,
 This paper outlines a maturity model for organizations to identify where they stand with regard to their integration agility, and to help plan a transformation path to become truly integration agile. 
 The content gathered and offered is based on our experience working with many enterprises on their integration and digital transformation initiatives. 
 
+## Highlights of the next version
+
+### Cellular enterprise
+![cellular enterprise](/media/rm-cellular-ent.png)
+
+
 ## References
 
 [1] WSO2 Reference Architecture for Agility paper: https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md
