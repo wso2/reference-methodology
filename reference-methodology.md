@@ -1,7 +1,7 @@
 <h1 align="center"> Reference Methodology for Agility </center></h1>
 <p align="center">
 <i>
-Version Q1-2020<br/>
+Version Spring-2020<br/>
 </i>
 </p>
 
@@ -215,6 +215,9 @@ We introduced the [cell-based architecture](https://github.com/wso2/reference-ar
 #### Open source
 
 In an integration-agile environment, you expect to do many innovations in labs (note that research and development is part of the self-organized teams), as well as rapid application development by following iterative execution model. In such an environment, you cannot afford to wait for lengthy (and slow) procurement processes to adopt the technologies that will allow you to deliver on your innovative ideas. Open source plays a significant role here by giving you access to robust and stable technologies that are used and contributed by a broader community. You can pick technologies delivered under business-friendly open source licenses, such as Apache 2.0, to avoid any corporate red lines in the future.
+The above paragraph explained only one side of the effect of open source for an organization, which is the usage of open source and increase productivity. Contributing to open source and creating an open culture with open source practices are two other aspects. 
+Contributing back to the open source project mandate by some of the open source licenses but more than that contribution is a usage ethic of open source. Organizations can create ecosystem teams and contribute to open source projects based on relevance. There are many advantages to this approach. Learning from a wider audience outside the organization and increasing the usage of the code the ecosystem teams write are few advantages that can highlight.
+Isolated teamwork within a business or functional unit can convert into collaborative development work using open source practices. Most of the organizations start with [innersourcing](https://www.oreilly.com/library/view/adopting-innersource/9781492041863/ch01.html) (a word coined by Tim O'Reilly in 2000) - collaborative development across the teams, but within the organization is the main characteristic of innersourcing. Furthermore, the code is not available in a public repository for outsiders to access or contribute.  The second stage is open source that the development and access to the code are available for outsiders but most contribution coming from the internal community. The third stage is an open community that the project donated to an independent foundation such as Apache Foundation ([ASF](https://www.apache.org/foundation/)) or Cloud Native Computer Foundation ([CNCF](https://www.cncf.io/)). Governance of the project handled by the foundation and contribution can come from anyone using or willing to commit to the project.
 
 ### Digital Alignment
 
