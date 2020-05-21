@@ -7,7 +7,7 @@ Version Spring-2020<br/>
 
 **_Original Authors_**
 
-+ Asanka Abeysinghe, Deputy CTO & VP of Architecture <asankaa@wso2.com>
++ Asanka Abeysinghe, Chief Technology Evangelist <asankaa@wso2.com>
 + Paul Fremantle, CTO and Co-Founder  <paul@wso2.com>
 
 >This document describes a reference methodology for modern agile digital enterprises.  Our goal is to move organizations from the current maturity stage towards the integration agile stage.  The outcome of moving higher in the maturity model is to increase the productivity of employees, save costs by reallocating resources from a “center of excellence” to self-organized teams, and provide a better customer experience by being digitally aligned. The methodology for moving through these maturity stages involves people, process and technology.
