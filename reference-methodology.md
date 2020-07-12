@@ -277,6 +277,6 @@ Using biology as a metaphor to define modern organization structure build with a
 
 [5] API Design Guidelines: https://wso2.com/whitepapers/wso2-rest-apis-design-guidelines/
 
-[6] WSO2 Agile Maturity Assesement: https://wso2.com/agile-maturity-assessment
+[6] WSO2 Agile Maturity Assessement: https://wso2.com/agile-maturity-assessment
 
 [7] WSO2 Impulse (Strategic Consulting): https://wso2.com/strategic-consulting/
