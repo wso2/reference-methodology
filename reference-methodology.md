@@ -253,7 +253,7 @@ The content gathered and offered is based on our experience working with many en
 ## Highlights of the next version
 
 ### Cellular enterprise
-Using biology as a metaphor to define modern organization structure build with a podular architecture consist of many self-organized teams. Cellular enterprise defines units associated with an application from the human who designs and builds to a composite that deploys at the end. 
+Using biology as a metaphor to define modern organization structure build with a podular architecture consist of many self-organized teams. Cellular enterprise defines units associated with an application from the human who designs and builds to a composite that deploys at the end. Refer the [Forbes article](https://www.forbes.com/sites/forbestechcouncil/2020/06/29/the-cellular-enterprise/#786824316832) for more details. 
 
 ![cellular enterprise](/media/rm-cellular-ent-30.png)
 
@@ -280,3 +280,5 @@ Using biology as a metaphor to define modern organization structure build with a
 [6] WSO2 Agile Maturity Assessement: https://wso2.com/agile-maturity-assessment
 
 [7] WSO2 Impulse (Strategic Consulting): https://wso2.com/strategic-consulting/
+
+[8] The Celleular Enterprise (Forbes article): https://www.forbes.com/sites/forbestechcouncil/2020/06/29/the-cellular-enterprise/#786824316832 
