@@ -1,7 +1,7 @@
 <h1 align="center"> Reference Methodology for Agility </center></h1>
 <p align="center">
 <i>
-Version Spring-2020<br/>
+Version Summer-2020<br/>
 </i>
 </p>
 
@@ -20,7 +20,7 @@ As APIs, microservices, software as a service (SaaS), and serverless architectur
 
 A methodology formalizes an approach to achieve a particular goal or set of goals. Our end goal is to make an organization integration agile. The proposed methodology is an iterative process characterized by five stages. Additionally, the methodology defined in this document looks at the organizational improvements in three dimensions.
 
-The methodology does not expect an organization to start from scratch, but rather to first conduct an assessment to understand the current state and define a path to move to the next desired level. This paper outlines a meta-process for organizations to refer and become integration agile.
+The methodology does not expect an organization to start from scratch, but rather to first conduct an ![assessment](https://wso2.com/agile-maturity-assessment) to understand the current state and define a path to move to the next desired level. This paper outlines a meta-process for organizations to refer and become integration agile.
 
 ## Maturity Model
 
@@ -242,7 +242,7 @@ A useful iterative execution model requires feedback coming from usage and runti
 
 #### Transformative purpose
 
-Defining the transformation strategy based on a purpose helps to run a successful transformation program as well as provide results align with the business. Different frameworks can use to achieve this, most popular frameworks are OKR (Objectives and Key Results) and MTP (Massively Transformative Purpose). Defining the purpose and measurable results is an exercise the digital strategist or the steering committee required to conduct before executing the activities of the transformation strategy. Having a thorough analysis of the internal priorities, customer demand, competition, and market outlook help to define the transformative purpose. The maturity model can use to start the process by conducting an assessment as well as a guide during the transformation journey.
+Defining the transformation strategy based on a purpose helps to run a successful transformation program as well as provide results align with the business. Different frameworks can use to achieve this, most popular frameworks are OKR (Objectives and Key Results) and MTP (Massively Transformative Purpose). Defining the purpose and measurable results is an exercise the digital strategist or the steering committee required to conduct before executing the activities of the transformation strategy. Having a thorough analysis of the internal priorities, customer demand, competition, and market outlook help to define the transformative purpose. The maturity model can use to start the process by conducting an ![assessment](https://wso2.com/agile-maturity-assessment) as well as a guide during the transformation journey.
 
 ## Conclusions
 
@@ -277,9 +277,6 @@ Using biology as a metaphor to define modern organization structure build with a
 
 [5] API Design Guidelines: https://wso2.com/whitepapers/wso2-rest-apis-design-guidelines/
 
+[6] WSO2 Agile Maturity Assesement: https://wso2.com/agile-maturity-assessment
 
-
-
-
-
-
+[7] WSO2 Impulse (Strategic Consulting): https://wso2.com/strategic-consulting/
