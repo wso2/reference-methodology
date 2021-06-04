@@ -1,13 +1,16 @@
-<h1 align="center"> Reference Methodology for Agility </center></h1>
+<h1 align="center"> Reference Methodology for an Agile Digital Business </center></h1>
 <p align="center">
 <i>
-Version Summer-2020<br/>
+Version Summer-2021<br/>
 </i>
 </p>
 
+**_Current Author_**
++ Asanka Abeysinghe | Chief Technology Evangelist- [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama) 
+
 **_Original Authors_**
 
-+ Asanka Abeysinghe | Chief Technology Evangelist- [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama) (Summer-2018 - Summer-2020)
++ Asanka Abeysinghe | Chief Technology Evangelist- [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama) (Summer-2018 - Summer-2021)
 + Paul Fremantle | former CTO and Co-Founder - [WSO2, Inc](https://wso2.com/) | [@pzfreo](https://twitter.com/pzfreo) (Summer-2018 - Spring-2020)
 
 >This document describes a reference methodology for modern agile digital enterprises.  Our goal is to move organizations from the current maturity stage towards the integration agile stage.  The outcome of moving higher in the maturity model is to increase the productivity of employees, save costs by reallocating resources from a “center of excellence” to self-organized teams, and provide a better customer experience by being digitally aligned. The methodology for moving through these maturity stages involves people, process and technology.
