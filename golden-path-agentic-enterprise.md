@@ -32,3 +32,14 @@ Most enterprises haven't settled on where AI strategy and AI security ownership 
 - **AI Security & Compliance**: CISO, VP Security, Head of Information Security
 - **Data Protection Officer**: DPO, Chief Privacy Officer, Privacy Counsel (many enterprises don't have this as a distinct role; it sits with Legal or gets folded into AI Security & Compliance instead)
 - **Agent Sponsor**: Line manager (this one's genuinely new: it doesn't map to an existing title in most orgs yet. See step 9)
+
+## How to use this
+
+Enter wherever you already are. Most enterprises have already made some progress on steps 1 through 3. Few have touched steps 8 through 10. The path is roughly sequential: each step assumes the governance foundation built in the steps before it. Step 5 (coding agents) is the exception. It applies the same governance model built in steps 2 through 4 to a different population (developers instead of general employees) and can run in parallel.
+
+Every step has the same five questions answered: what you need, why it matters, how you know it's working, who owns it, and what your AI Security & Compliance function will ask about it before signing off. That last part is not an afterthought. Every step on this path that fails does so because governance was bolted on after the fact instead of built into the achievement itself.
+
+<diagram>
+Blue steps are efficiency plays: they save time and reduce risk. Green steps are growth plays: they turn the same governed foundation into revenue. Notice that growth never shows up before step 6. You cannot monetize or externalize what you have not first governed.
+
+
