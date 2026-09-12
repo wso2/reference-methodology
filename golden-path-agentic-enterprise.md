@@ -1,4 +1,4 @@
-<h1 align="center"> The golden path to become an agentic enterprise </h1>
+<h1 align="center"> The Golden Path to Become an Agentic Enterprise </h1>
 <h3 align="center"> A WSO2 Methodology </h3>
 <p align="center">
 <i>
@@ -6,11 +6,6 @@ Version: Summer-2026<br/>
 <b>First Published On: Summer-2026<br/>  </b>
 </i>
 </p>
-
-# The golden path to become an agentic enterprise
-
- 
-*Version 1.0, Summer 2026*
  
 **Author**
 - Asanka Abeysinghe | Chief Technology Officer, [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama)
