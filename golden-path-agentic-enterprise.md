@@ -7,8 +7,14 @@ Version: Summer-2026<br/>
 </i>
 </p>
  
-**Author**
-- Asanka Abeysinghe | Chief Technology Officer, [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama)
+**Authors**
+- Selvaratnam Uthaiyashankar | Chief Product Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
+- Ruwan Linton | Chief Customer Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
+- Rania Khalaf | Chief AI Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
+- Mifan Careem | Chief Solutions Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
+- Derric Giling | GM API Platform BU, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
+- Asanka Abeysinghe | CTO, [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama)
+
 ## Overview
  
 Enterprises know they need to move on agentic AI. Most don't know where to start, or what comes after the first pilot. This document lays out ten sequential achievements that answer both questions, and maps a set of controls to each one.
