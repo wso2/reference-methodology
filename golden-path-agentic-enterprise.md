@@ -22,3 +22,13 @@ Enterprises know they need to move on agentic AI. Most don't know where to start
 Each achievement is binary, not scored. You either have safe, attributable AI access for your employees or you don't. You either have a governed catalog of MCP tools or you don't. There's no partial credit and no benchmarking against peers. Each achievement is also a precondition for the ones that follow it: the first four steps build the governance foundation everything else depends on. Skip that foundation and the later steps, especially external exposure and monetization, get far more expensive to retrofit than to build correctly the first time.
  
 This document is vendor neutral. The ten achievements and their controls apply regardless of which vendors you use. A separate section at the end maps WSO2's platform against each step, for readers evaluating WSO2 specifically.
+
+## Roles used in this document
+
+Most enterprises haven't settled on where AI strategy and AI security ownership sit. Some fold it into the CIO, some run a dedicated Chief AI Officer, some split AI security out of the CISO entirely. Data protection ownership varies just as much, and the agent sponsor role in step 9 doesn't have a settled title anywhere yet. The roles below appear as functional labels instead of specific titles for that reason. Every other role referenced (Finance, Legal, HR, COO, CEO, Product Management) is stable enough across enterprises that it doesn't need translation.
+
+- **AI Strategist**: CIO, Chief AI Officer, CTO, Head of AI, VP AI Strategy
+- **Platform Lead**: CTO, VP Engineering, Head of Platform Engineering
+- **AI Security & Compliance**: CISO, VP Security, Head of Information Security
+- **Data Protection Officer**: DPO, Chief Privacy Officer, Privacy Counsel (many enterprises don't have this as a distinct role; it sits with Legal or gets folded into AI Security & Compliance instead)
+- **Agent Sponsor**: Line manager (this one's genuinely new: it doesn't map to an existing title in most orgs yet. See step 9)
