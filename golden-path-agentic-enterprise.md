@@ -373,3 +373,28 @@ This is the end state: agents as a revenue-generating product line, not just an 
 Ten achievements, not five stages. No score, no benchmark against peers, no partial credit for being "mostly there" on a dimension. Just a sequence of things that have to be genuinely true, in roughly this order, before the next one is safe to build. Skip the governance work in steps 1 through 4 and steps 6 through 10 will eventually cost you far more than the time you saved.
 
 ----------------------------------------
+
+## MAPPING WSO2 TO THE GOLDEN PATH
+
+The path above is vendor neutral. This section is not. It maps WSO2's platform against each step for readers evaluating WSO2 specifically. If you're using a different stack, the achievements and controls above still apply; substitute your own tooling.
+
+1. **Sanctioned access**: WSO2 AI Gateway, single egress control point with SSO and per-user attribution and usage visibility. Models can be hosted in your own tenancy over a private endpoint.
+2. **Safe general-purpose use**: WSO2 AI Gateway for guardrails, PII masking and redaction, token-based rate limiting, semantic caching, and multi-provider routing and failover. WSO2 AI Workspace for providers, guardrails, and AI Insights in one place.
+3. Grounded enterprise knowledge: WSO2 Integrator, AI-native integration for RAG and GenAI apps with 600+ connectors to data, APIs, and MCP servers. WSO2 AI Gateway for guardrails and grounding checks on the response path. WSO2 AI Workspace.
+4. Central governance: WSO2 AI Gateway. WSO2 AI Workspace. WSO2 API Portal & MCP Hub, to expose skills and tools as governed MCP with scopes and owners.
+5. Governed coding agents: WSO2 Agent Manager (currently waitlist), enterprise control plane for AI agents. WSO2 Agent Builder. WSO2 AI Gateway. WSO2 API Portal & MCP Hub. WSO2 Developer Platform / OpenChoreo for golden paths, CI gates, and environment promotion enforced by the platform rather than by convention.
+6. Expose capabilities: WSO2 Agent Manager (waitlist). WSO2 Agent Builder. WSO2 AI Gateway. WSO2 API Portal & MCP Hub. WSO2 Developer Platform / OpenChoreo.
+7. Monetize capabilities: WSO2 AI Gateway. WSO2 API Portal & MCP Hub. WSO2 Monetization, powered by Moesif. WSO2 Developer Platform / OpenChoreo.
+8. Automate processes: WSO2 Integrator for building agents with low-code and pro-code parity and 600+ connectors. WSO2 Agent ID to register, authenticate, authorize, and audit agents. WSO2 Agent Manager (waitlist) to run, govern, observe, and evaluate agents across frameworks and runtimes. WSO2 AI Gateway + API Manager for parameter-level policy, guardrails, and approval routing at the boundary. OpenChoreo Cells on AKS or EKS for isolation, declared gateway topology, and scale-to-zero for idle agents.
+9. Delegate to agents: WSO2 Agent ID for agent identity, delegation, and fine-grained authorization. WSO2 Identity Server 7.3 for token exchange, background-agent delegation via CIBA, MCP policy enforcement, and on-demand credential revocation. It federates to whichever identity authority you already run (for example Microsoft Entra Agent ID or AWS Bedrock AgentCore Identity) rather than replacing it. WSO2 API Manager enforces the delegated scope at the boundary where the action happens.
+10. Monetize agents: WSO2 Agent Manager + WSO2 Agent ID (waitlist) for multi-tenant agent governance, identity, and evidence. WSO2 API Manager monetization for rate plans, metering, and billing on agent products. WSO2 AI Gateway for per-tenant budgets, quotas, and cost attribution. OpenChoreo for per-tenant Cells and environments on AKS or EKS, with sovereign and multi-region topologies. WSO2 Identity Server for external customer identity and delegation.
+
+## References
+1. 2024 Work Trend Index Annual Report, Microsoft and LinkedIn (https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part)
+2. EU AI Act, Article 4, AI literacy (https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy), in force since February 2, 2025
+3. NIST AI 600-1, Artificial Intelligence Risk Management Framework: Generative AI Profile; OWASP Top 10 for Large Language Model Applications, owasp.org (https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+4. RFC 8693 (OAuth 2.0 Token Exchange), RFC 8707 (Resource Indicators for OAuth 2.0), RFC 9728 (OAuth 2.0 Protected Resource Metadata), rfc-editor.org (https://www.rfc-editor.org/)
+5. IBM Cost of a Data Breach Report 2025 (https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls)
+6. Gartner: Over 40% of agentic AI projects will be canceled by end of 2027 (https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027)
+7. Deloitte, State of AI in the Enterprise 2026 (https://www.deloitte.com/us/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html), survey of 3,235 IT and business leaders
+8. ISO/IEC 42001:2023, AI management system; ISO/IEC 42005:2025, AI system impact assessment (https://www.iso.org/standard/42005)
