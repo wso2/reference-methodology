@@ -83,3 +83,21 @@ This is the bare minimum, and it's the only thing that actually reduces shadow A
 
 ### Why it matters
 This step is about two things: data leakage and cost control. Conversational and agentic workloads consume metered capacity non-deterministically, so a small design flaw becomes a large bill and a malicious prompt becomes an economic attack. It's also the first piece of infrastructure-enforced governance: control applied outside the application, at a shared boundary, so coverage doesn't depend on every team implementing it correctly.
+
+### You'll know it's working when
+- Zero confirmed data-leakage incidents through AI tools
+- Consumer AI egress is down more than 80% against the step 1 baseline
+- Cost per active user is flat or falling
+- Guardrail false-positive rate is under 2% (a noisy guardrail gets switched off)
+- 100% of AI traffic passes through the gateway
+
+**Who owns it**: AI Security & Compliance owns the guardrail policy set; Finance owns the budget envelope.
+
+**Where it breaks**: The provider trains on your data. Jailbreaks produce unlawful, defamatory, or embarrassing output. Spend goes unbounded (denial-of-wallet). Data residency and cross-border transfer become a problem. Shadow endpoints bypass the gateway entirely.
+
+### Controls
+- Guardrail policy set: PII redaction, denied topics, prompt-injection shields, output length and format limits
+- Token quotas and hard spend ceilings with automatic cutoff, not just alerts
+- Prompt and response logging with an explicit retention schedule
+- Data residency configuration and no-training contractual terms
+- Network egress allow-list so the gateway cannot be bypassed; keys in a vault, never in app config
