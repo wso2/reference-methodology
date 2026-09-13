@@ -15,6 +15,25 @@ Version: Summer-2026<br/>
 - Derric Giling | GM API Platform BU, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
 - Asanka Abeysinghe | CTO, [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama)
 
+## Contents
+
+- [Overview](#overview)
+- [Roles used in this document](#roles-used-in-this-document)
+- [How to use this](#how-to-use-this)
+- [Step 1: Sanctioned access](#step-1-sanctioned-access)
+- [Step 2: Safe general-purpose use](#step-2-safe-general-purpose-use)
+- [Step 3: Grounded enterprise knowledge](#step-3-grounded-enterprise-knowledge)
+- [Step 4: Central governance with distributed enforcement](#step-4-central-governance-with-distributed-enforcement)
+- [Step 5: Governed coding agents](#step-5-governed-coding-agents)
+- [Step 6: Expose your capabilities to external agents](#step-6-expose-your-capabilities-to-external-agents)
+- [Step 7: Monetize your capabilities](#step-7-monetize-your-capabilities)
+- [Step 8: Automate entire operational processes](#step-8-automate-entire-operational-processes)
+- [Step 9: Agents as part of your workforce](#step-9-agents-as-part-of-your-workforce)
+- [Step 10: Monetize your agents](#step-10-monetize-your-agents)
+- [Closing thought](#closing-thought)
+- [Mapping WSO2 to the golden path](#mapping-wso2-to-the-golden-path)
+- [References](#references)
+
 ## Overview
  
 Enterprises know they need to move on agentic AI. Most don't know where to start, or what comes after the first pilot. This document lays out ten sequential achievements that answer both questions, and maps a set of controls to each one.
