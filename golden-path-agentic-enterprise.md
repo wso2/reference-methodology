@@ -201,3 +201,35 @@ Coding agents are the highest-adoption and highest-leverage agent class, and the
 - Third-party MCP server and extension review before it touches a repo
 
 ## Step 6: Expose your capabilities to external agents
+
+**Achievement**: External agents, including conversational AI apps you don't control, can consume your capabilities.
+
+### What you need
+- Your capabilities published as MCP servers, with agent identity and MCP auth so you can offer them securely
+- Public, non-PII content first, then integrations that expose systems of record, knowledge bases, and RAG
+- Publication in an agent-facing catalog with machine-readable tool descriptions, scopes, rate plans, and a named owner per tool
+- Every third-party MCP server reviewed before anything is allowed to call it
+
+### Why it matters
+This is where your capabilities become reachable by the whole agent ecosystem, not just your own applications. The MCP registry and API catalog become the enterprise system of record for what any agent can discover, invoke, and expose. It's also where risk moves from language to action, so the boundary has to exist before the consumers do. This is the highest-leverage step on the whole path: build it once, and every later agent, internal or external, reuses it.
+
+### You'll know it's working when
+- External agents, partners, and AI apps are actually consuming your MCP tools
+- MCP tool call volume, success rate, and p95 latency are healthy
+- A new external consumer can make its first successful call in under a day, fully self-service
+- Partner integrations ship with no bespoke code
+- 100% of tools have a named owner and a published scope
+
+**Who owns it**: The Platform Lead owns the platform; Product Management owns the external proposition and partner roadmap. AI Security & Compliance signs off the exposure model; Legal owns partner terms.
+
+**Where it breaks**: Third-party agents operate with enterprise credentials. Tokens carry far more scope than the tool needs. You get a confused deputy: the tool acts with its own privilege rather than the caller's. Tool sprawl accumulates with no owner and no lifecycle. A tool definition or MCP server gets compromised in the supply chain.
+
+### Controls
+- MCP as an OAuth 2.1 resource server with PKCE S256
+- RFC 9728 protected resource metadata so clients discover the right authorization server; RFC 8707 resource indicators so tokens are audience-bound to one server and can't be redirected(4)
+- Per-consumer scopes, quotas, and ACLs; tool allow-lists
+- Schema validation on tool inputs and outputs; parameter constraints, not just tool-name permissions
+- Third-party MCP server review checklist; egress controls on outbound tool calls
+- Note: the MCP authorization spec is moving fast. Track it, it has been changing with breaking implications for how RFC 9728 and RFC 8707 get applied.
+
+## Step 7: Monetize your capabilities
