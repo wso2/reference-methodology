@@ -101,3 +101,36 @@ This step is about two things: data leakage and cost control. Conversational and
 - Prompt and response logging with an explicit retention schedule
 - Data residency configuration and no-training contractual terms
 - Network egress allow-list so the gateway cannot be bypassed; keys in a vault, never in app config
+
+## Step 3: Grounded enterprise knowledge
+
+**Achievement**: Employees can use conversational AI to access enterprise knowledge and take isolated, low-risk actions, not just general questions.
+
+### What you need
+- Skills, plugins, and knowledge bases made available through retrieval, RAG, and indexed search
+- Curated sources, starting with non-PII content
+- A context engine for storage, mastering, and retrieval
+- Source-level access control enforced at query time, not only at ingest: retrieval must respect the asker's existing entitlements
+- Citations on every answer, sensitive-data scanning before ingest, and recorded data lineage
+- Start read-only. Earn the right to write.
+
+### Why it matters
+Grounding is the single most effective control against confabulation, a risk named explicitly in NIST AI 600-1 and OWASP's LLM Top 10.(3) It's also the first place a real data boundary has to exist: an over-permissioned index is a data breach with a chat interface. And it's the first step that produces a defensible business number instead of enthusiasm.
+
+### You'll know it's working when
+- Every governed knowledge source and tool has a named owner
+- Over 95% of answers cite a retrievable source (groundedness)
+- A meaningful share of "where do I find" queries get resolved without a human (deflection rate)
+- Time saved per task, and tasks completed per employee per week, both move
+- Zero incidents of a user seeing content they weren't entitled to
+
+**Who owns it**: Team-level leadership and AI Security & Compliance. Each knowledge source and tool needs a named business owner, not just a technical one.
+
+**Where it breaks**: Over-permissioned retrieval returns documents the asker should never see. Embeddings become an uncontrolled second copy of sensitive data. Poisoned or stale documents steer answers, or carry an injection payload. Tools get granted more scope than the task requires. Actions get taken on the strength of a wrong answer.
+
+### Controls
+- Document-level ACLs enforced at query time (security trimming)
+- Index segregation by sensitivity tier; PII and secret scanning before ingest; encrypted embedding store
+- MCP over OAuth 2.1 with PKCE S256; audience-bound tokens (RFC 8707); protected resource metadata (RFC 9728)(4)
+- Indirect prompt-injection defense: retrieved content is data, never instruction
+- Groundedness and citation enforcement on output; source integrity and provenance checks
