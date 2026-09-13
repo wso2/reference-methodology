@@ -62,6 +62,19 @@ Every step has the same five questions answered: what you need, why it matters, 
 
 Blue steps are efficiency plays: they save time and reduce risk. Green steps are growth plays: they turn the same governed foundation into revenue. Notice that growth never shows up before step 6. You cannot monetize or externalize what you have not first governed.
 
+| Step | What it gets you | Goal |
+|---|---|---|
+| 1. Sanctioned access | One safe, attributable way for employees to use AI; everything else blocked | Efficiency |
+| 2. Safe general-purpose use | Guardrails and cost controls on general AI tools (ChatGPT, Claude, Gemini) | Efficiency |
+| 3. Grounded enterprise knowledge | AI answers grounded in your own data, with access control enforced at query time | Efficiency |
+| 4. Central governance | One policy, enforced everywhere, with a shared catalog instead of every team rebuilding | Efficiency |
+| 5. Governed coding agents | The same governance model applied to coding agents and AI-assisted development | Efficiency |
+| 6. Expose capabilities | Your capabilities published as governed MCP servers for external agents to consume | Growth |
+| 7. Monetize capabilities | Metering and billing on the capabilities you've exposed | Growth |
+| 8. Automate processes | Whole operational workflows running agent-first, not just agent-assisted | Efficiency |
+| 9. Delegate to agents | Agents acting under a user's delegated authority, not a standing service account | Efficiency |
+| 10. Monetize agents | Agents themselves packaged as products, with outcome-based pricing | Growth |
+
 ## Step 1: Sanctioned access
 
 **Achievement**: Employees can use conversational AI without security, safety, or data leakage as an open question.
