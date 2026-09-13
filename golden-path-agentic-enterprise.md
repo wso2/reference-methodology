@@ -303,3 +303,59 @@ This is where value moves from assistance to throughput, the first step where th
 ## Step 9: Agents as part of your workforce
 
 **Achievement**: Agents work alongside and on behalf of your employees, acting under delegated user authority rather than a standing service identity.
+
+### What you need
+- Agents get a token from users to act, including on PII data, on the user's behalf
+- The token is audience-bound, time-limited, and scoped to the task
+- The delegation chain is preserved and propagated: who initiated, what authority was granted, and whether the agent stayed inside it
+- Support for background and asynchronous consent, so agents can act when the user isn't present
+- Every agent identity has a human sponsor; access is revocable on demand and reviewed periodically
+
+### Why it matters
+This step is about attribution. Without an explicit delegation chain, authorization becomes approximate, audit becomes incomplete, cost attribution becomes unclear, incident response slows down, and human accountability blurs. Delegation is not impersonation: both the human and the agent have to remain visible in the record. This is the step that turns "we have chatbots" into "agents can safely touch customer data." Worth stating plainly: first-class agent identity and multi-step delegation are still developing at the standards level. Design to capabilities, not to named drafts.
+
+### You'll know it's working when
+- A real number of agents operate under user delegation in production
+- 100% of agent actions have a complete, replayable authority chain
+- Mean time to revoke delegated authority is measured in minutes
+- Approval queue median time-to-decision is fast, and the override rate isn't a rubber-stamp warning sign
+- Agent-assisted tasks per employee per week climb, and employee trust in the periodic survey holds up
+- Orphaned agent credentials after a joiner-mover-leaver event hit zero
+
+**Who owns it**: AI Security & Compliance and the AI Strategist jointly own the delegation model; line managers act as agent sponsors and are accountable for their agents' access. HR and Legal weigh in on workforce and employment implications. The Data Protection Officer owns the lawful basis for PII processing by an agent.
+
+**Where it breaks**: Impersonation gets dressed up as delegation, and the human disappears from the audit trail. Consent fatigue leads users to grant broad, long-lived scopes. Standing privilege outlives the task. Agent credentials go orphaned after someone leaves. Approvals become rubber-stamps, and the approver gets socially engineered by the agent's own framing. A delegated token gets replayed against a different resource.
+
+### Controls
+- RFC 8693 OAuth 2.0 token exchange with the act (actor) claim, which expresses delegation rather than impersonation, and nests to carry a multi-hop chain(4)
+- Short-lived, audience-bound tokens (RFC 8707); scope minimization; just-in-time access
+- On-demand revocation and periodic access reviews for agent identities
+- A human sponsor per agent, enforced by a lifecycle workflow that reassigns on departure
+- Separation of duties between requester, agent, and approver; tiered approval thresholds; out-of-band confirmation for high-value actions
+- Approval evidence retained with the action trace
+- Watch, don't depend on: OAuth identity chaining and the Identity Assertion Authorization Grant are still IETF drafts
+
+### Step 10: Monetize your agents
+
+**Achievement**: New revenue streams from packaging agents themselves as products, not just the capabilities behind them.
+
+### What you need
+- Outcome- or task-based pricing, a multi-tenant runtime with hard tenant isolation, per-tenant budgets, quotas, and SLAs
+- External-facing agent identity and delegation, so your customer's own users can authorize your agent to act for them
+- Per-tenant evidence: every action replayable for the customer's own auditors
+- An AI management system aligned to ISO/IEC 42001, plus AI system impact assessments, because a regulated buyer's own security and compliance function will ask before signing
+
+### Why it matters
+This is the end state: agents as a revenue-generating product line, not just an internal efficiency program. It only works if the earlier steps on this path are genuinely done. A buyer's own security and compliance function will ask for the delegation chain, the evidence trail, the impact assessment, and the incident process before signing, and increasingly for a certificate. The market gap is the opportunity: only 21% of companies planning agentic AI report a mature agent governance model, while close to three-quarters plan to deploy within two years.(7) Being in that 21% is a commercial advantage, not just a compliance posture.
+
+### You'll know it's working when
+- There's real revenue from agent-as-a-product and outcome-based pricing
+- Gross margin per agent task, after model, tool, and infrastructure cost, is known
+- Tenant count, net revenue retention, and expansion rate are all moving
+- SLA attainment and cost-per-outcome trend are healthy (these two numbers decide whether outcome pricing is safe)
+- Enterprise security-review cycle time shortens as your evidence matures
+- Cross-tenant data incidents stay at zero
+
+**Who owns it**: CEO or Chief Product Officer owns the P&L; the Platform Lead owns the platform; AI Security & Compliance and Legal own assurance, contracts, and regulatory exposure. There's a named accountable executive for the AI management system, as ISO/IEC 42001 and the EU AI Act both expect.
+
+**Where it breaks**: Cross-tenant data leakage is the incident that ends the product line. Liability accrues for an autonomous action taken on a customer's behalf. Unverifiable claims about accuracy, safety, or compliance get made in sales. Regulatory exposure spans jurisdictions; data residency and sovereignty become live questions. A denial-of-wallet attack hits a metered agent. Personal accountability falls on the named executive.
