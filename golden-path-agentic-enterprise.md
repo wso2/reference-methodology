@@ -51,3 +51,14 @@ Achievement: Employees can use conversational AI without security, safety, or da
 - Everything else blocked at the proxy or egress layer
 - A one page acceptable use position and a short AI literacy note
 
+### Why it matters
+This is the bare minimum, and it's the only thing that actually reduces shadow AI. 78% of AI users already bring their own tools to work, and 52% are reluctant to admit using AI for their most important tasks.(1) Blocking without providing an alternative just drives usage underground. It also isn't optional: the EU AI Act's Article 4 AI literacy obligation has applied since February 2, 2025, regardless of risk category.(2)
+
+### You'll know it's working when
+- Over 90% of employees have sanctioned access within a quarter
+- Zero unsanctioned AI domains are still reachable from the corporate network
+- A new employee gets access the same day, self-service
+
+**Who owns it**: The AI Strategist. Every framework and auditor asks for this person first.
+
+**Where it breaks**: Prompts and responses get retained at the model provider with no attribution to a person, so no investigation is possible if data walks out. Meanwhile employees are already using consumer AI you cannot see.
