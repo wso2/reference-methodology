@@ -359,3 +359,17 @@ This is the end state: agents as a revenue-generating product line, not just an 
 **Who owns it**: CEO or Chief Product Officer owns the P&L; the Platform Lead owns the platform; AI Security & Compliance and Legal own assurance, contracts, and regulatory exposure. There's a named accountable executive for the AI management system, as ISO/IEC 42001 and the EU AI Act both expect.
 
 **Where it breaks**: Cross-tenant data leakage is the incident that ends the product line. Liability accrues for an autonomous action taken on a customer's behalf. Unverifiable claims about accuracy, safety, or compliance get made in sales. Regulatory exposure spans jurisdictions; data residency and sovereignty become live questions. A denial-of-wallet attack hits a metered agent. Personal accountability falls on the named executive.
+
+### Controls
+- Hard tenant isolation: separate cells or namespaces, per-tenant keys, policies, and evidence stores
+- Per-tenant budgets, rate limits, circuit breakers, and kill switches
+- AI system impact assessments per ISO/IEC 42005, and an AI management system per ISO/IEC 42001 (clauses 4 through 10 plus 38 Annex A controls; certification valid three years with surveillance)(8)
+- EU AI Act: Article 50 transparency for customer-facing agents, in force since August 2, 2026; Article 25 documentation and testing-access rights over upstream model providers; Annex III high-risk obligations from December 2, 2027 if in scope
+- Independent penetration testing and red-teaming; AI-specific incident response with customer notification paths
+- Contractual limits on liability, autonomy scope, and human oversight, reviewed by Legal, never asserted in a deck
+
+## Closing thought
+
+Ten achievements, not five stages. No score, no benchmark against peers, no partial credit for being "mostly there" on a dimension. Just a sequence of things that have to be genuinely true, in roughly this order, before the next one is safe to build. Skip the governance work in steps 1 through 4 and steps 6 through 10 will eventually cost you far more than the time you saved.
+
+----------------------------------------
