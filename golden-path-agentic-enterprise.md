@@ -233,3 +233,73 @@ This is where your capabilities become reachable by the whole agent ecosystem, n
 - Note: the MCP authorization spec is moving fast. Track it, it has been changing with breaking implications for how RFC 9728 and RFC 8707 get applied.
 
 ## Step 7: Monetize your capabilities
+
+**Achievement**: New revenue streams from monetizing the capabilities you've exposed as MCP servers and APIs.
+
+### What you need
+- Metered rate plans: per call, per token, per outcome, or subscription tiers, with entitlement enforced at the gateway rather than in application code
+- Usage metering you can actually invoice from, reconciled to billing
+- Self-service onboarding: sign-up, credentials, sandbox, documentation
+- Commercial terms: acceptable use, SLA, liability, IP, and data handling
+
+### Why it matters
+This turns the governed capability layer from a cost center into a revenue line. Once tools are cataloged, metered, and authorized per consumer, monetization becomes a pricing decision rather than an engineering project, which is why it sits immediately after the catalog step rather than years later. It also changes the internal conversation: the API and AI platform stops being overhead you have to defend at budget time.
+
+### You'll know it's working when
+- There's real revenue from monetized tools and APIs
+- Paying consumers, net revenue retention, and free-to-paid conversion are all moving
+- ARPU per tool and gross margin per call (after model, tool, and infrastructure cost) are known
+- Metering-to-invoice reconciliation variance is under 1%
+- Partner-sourced pipeline is attributable to the catalog
+
+**Who owns it**: The Platform Lead and Product Management own product and pricing; Finance owns revenue recognition and margin; Legal owns terms and liability. Don't commit pricing or contractual terms without Finance and Legal sign-off.
+
+**Where it breaks**: Metering that can't be reconciled to invoices, or that a customer can dispute. Entitlement bypass, where a consumer exceeds a paid plan or reaches an unpaid tool. PII or regulated data crosses a commercial boundary. Contractual exposure opens up on availability, accuracy, IP indemnity, and liability. A monetized endpoint becomes an attractive attack or scraping target.
+
+### Controls
+- Entitlement and quota enforcement at the gateway, not in application code
+- Tamper-evident usage metering with an immutable record, reconciled to billing
+- Per-consumer data-boundary policies, redaction, and purpose limitation
+- WAF, bot, and abuse protection; per-consumer rate limits and anomaly detection
+- Contractual review of SLA, acceptable use, liability, IP, and data processing terms
+- For customer-facing offerings: EU AI Act Article 50 transparency, in force since August 2, 2026, plus applicable consumer-protection, advertising, and anti-spam law
+
+## Step 8: Automate entire operational processes
+
+**Achievement**: Whole operational processes and product delivery workflows run agent-first, not merely agent-assisted.
+
+### What you need
+- Agents built and run on a managed runtime with session isolation
+- Every agent has a unique identifier, a named owner, a registry entry, and a budget. Never a shared service account.
+- Scoped tool bindings drawn from the catalog built in step 6
+- Evals in CI and continuous evaluation in production; agents monitored and managed; traces on by default
+- Parameter-level authorization before any write: which record, which field, which amount, which recipient
+- Human approval tiers for high-risk, irreversible, or regulated actions
+
+### Why it matters
+This is where value moves from assistance to throughput, the first step where the business case is capacity, not convenience. It also raises the governance bar sharply: the path matters, not just the output. What authority was used, what tool was called, with what parameters, and was the action reversible. Gartner expects over 40% of agentic AI projects to be canceled by the end of 2027, naming inadequate risk controls as one of three causes.(6) The controls in this section aren't the tax on reaching production. They're the route to it.
+
+### You'll know it's working when
+- A real number of end-to-end processes are running agent-first, not just agent-assisted
+- Straight-through processing rate climbs: the share of cases completed with no human touch
+- Cost per transaction and cycle time beat baseline
+- Eval pass rate at release is high, and production incidents per 1,000 agent actions is low
+- Rework and reversal rate on agent actions stays low (this is the number that decides whether you can widen scope)
+- Cost per outcome per agent is known, with a named budget owner
+
+**Who owns it**: The COO or process owner owns the outcome and the target metric; the Platform Lead owns the platform; AI Security & Compliance owns the control set. Every agent needs a named business owner and a budget owner, reviewed whenever people change roles.
+
+**Where it breaks**: Anonymous agents run on shared service accounts, unattributable and unrevocable. Excessive agency lets an agent do far more than the task requires. You get a permitted-but-wrong action: technically authorized, wrong for the business context. Irreversible operations happen with no compensating path. Runaway loops, excessive fan-out, and unbounded consumption occur. Indirect prompt injection arrives through a document or a tool response.
+
+### Controls
+- One identity per agent; least-privilege, scoped tool bindings; no standing privilege
+- Parameter-level authorization via ABAC or ReBAC (Cedar, OPA, or equivalent): allow-listed amounts, recipients, record scopes, and query shapes
+- Sandboxed code execution; per-agent network egress control; secrets in a vault
+- Runtime safety: prompt-injection and jailbreak defense, output filtering, memory write validation, fan-out and retry caps
+- OTEL tracing of intent, authority, tool calls, parameters, policy decisions, and approvals, replayable in audit
+- Per-agent budgets and a tested kill switch; dry-run mode before enabling writes
+- Red-teaming and regression evals gating every model, prompt, tool, or policy change
+
+## Step 9: Agents as part of your workforce
+
+**Achievement**: Agents work alongside and on behalf of your employees, acting under delegated user authority rather than a standing service identity.
