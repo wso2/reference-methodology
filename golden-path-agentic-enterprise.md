@@ -45,7 +45,7 @@ Blue steps are efficiency plays: they save time and reduce risk. Green steps are
 
 ## Step 1: Sanctioned access
 
-Achievement: Employees can use conversational AI without security, safety, or data leakage as an open question.
+**Achievement**: Employees can use conversational AI without security, safety, or data leakage as an open question.
 
 ### What you need
 - At least one approved conversational AI product, reached behind SSO, so every prompt is attributable to a person
@@ -63,3 +63,23 @@ This is the bare minimum, and it's the only thing that actually reduces shadow A
 **Who owns it**: The AI Strategist. Every framework and auditor asks for this person first.
 
 **Where it breaks**: Prompts and responses get retained at the model provider with no attribution to a person, so no investigation is possible if data walks out. Meanwhile employees are already using consumer AI you cannot see.
+
+### Controls
+- SSO and MFA, per-user attribution
+- Egress allow-listing to the sanctioned endpoint only
+- A CASB or secure web gateway for AI-app discovery, starting in monitor mode
+- Acceptable use policy plus AI literacy training
+- A live AI register: tool, owner, data touched, business process
+
+## Step 2: Safe general-purpose use
+
+**Achievement**: Employees can safely use general-purpose conversational AI (ChatGPT, Claude.ai, Gemini, and similar).
+
+### What you need
+- A model that does not train on your data, hosted locally or in your own cloud tenancy, with contractual no-training terms
+- Guardrails configured before rollout, not after: PII masking, prompt-injection shields, denied topics, output limits
+- A token budget per user and per department from day one
+- A documented prompt and response retention period
+
+### Why it matters
+This step is about two things: data leakage and cost control. Conversational and agentic workloads consume metered capacity non-deterministically, so a small design flaw becomes a large bill and a malicious prompt becomes an economic attack. It's also the first piece of infrastructure-enforced governance: control applied outside the application, at a shared boundary, so coverage doesn't depend on every team implementing it correctly.
