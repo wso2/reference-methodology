@@ -42,4 +42,12 @@ Every step has the same five questions answered: what you need, why it matters, 
 diagram
 Blue steps are efficiency plays: they save time and reduce risk. Green steps are growth plays: they turn the same governed foundation into revenue. Notice that growth never shows up before step 6. You cannot monetize or externalize what you have not first governed.
 
+## Step 1: Sanctioned access
+
+Achievement: Employees can use conversational AI without security, safety, or data leakage as an open question.
+
+### What you need
+- At least one approved conversational AI product, reached behind SSO, so every prompt is attributable to a person
+- Everything else blocked at the proxy or egress layer
+- A one page acceptable use position and a short AI literacy note
 
