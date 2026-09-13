@@ -169,3 +169,35 @@ Central policy without distributed enforcement becomes a bottleneck teams route 
 - Separation of policy authorship from policy enforcement duties
 
 ## Step 5: Governed coding agents
+
+**Achievement**: The same governance extends to coding agents and AI-assisted development, which is where it's most likely to be missing.
+
+### What you need
+- Sanctioned tools on private model endpoints. No proprietary source goes into consumer AI.
+- Scope what a coding agent may read (which repos, which paths) and what it may do: branch and raise a PR, never push to a protected branch
+- Governed tools and short-lived credentials instead of standing secrets
+- AI-generated code and its dependencies scanned before merge; human review and signed commits on every merge
+
+### Why it matters
+Coding agents are the highest-adoption and highest-leverage agent class, and the one most likely to arrive ungoverned, because developers adopt them individually. They're also the highest blast radius: they read source, secrets, and infrastructure, and their output ships to production. Same governance model as conversational AI, very different consequences. Getting this right early is what makes every later step in this path cheaper to build.
+
+### You'll know it's working when
+- A high share of developers are on sanctioned coding agents
+- Your DORA metrics move against baseline: PR cycle time, deployment frequency, change failure rate, MTTR
+- AI-authored PRs merge with zero security or license findings
+- Secrets or incompatible licenses reaching main hits zero
+- Cost per merged PR, including model spend, is known and trending the right way
+
+**Who owns it**: The Platform Lead owns adoption and productivity; AI Security & Compliance owns the control set; platform engineering owns the golden paths. Legal owns open-source license exposure.
+
+**Where it breaks**: Proprietary source code or secrets get sent to an external model. AI-generated vulnerabilities and license contamination reach production. Agents hold write access to protected branches or CI/CD credentials. A supply-chain compromise arrives through the agent's own dependencies or a third-party MCP server. Reviewers rubber-stamp large AI-authored diffs.
+
+### Controls
+- Private or self-hosted model endpoints for code; block consumer coding tools on proprietary repositories
+- Repo and path scoping per agent; branch protection; no direct push; short-lived credentials from a vault
+- Secret scanning, SAST, DAST, and SCA on every AI-authored PR; SBOM generation
+- Open-source license compatibility checks
+- Mandatory human review, signed commits, and a diff-size threshold that forces smaller PRs
+- Third-party MCP server and extension review before it touches a repo
+
+## Step 6: Expose your capabilities to external agents
