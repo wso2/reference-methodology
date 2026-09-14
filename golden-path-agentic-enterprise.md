@@ -13,7 +13,7 @@ Version: Summer-2026<br/>
 - Rania Khalaf | Chief AI Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
 - Mifan Careem | Chief Solutions Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
 - Derric Giling | GM API Platform BU, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
-- Asanka Abeysinghe | CTO, [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama)
+- Asanka Abeysinghe | Chief Technology Officer, [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama)
 
 ## Contents
 
