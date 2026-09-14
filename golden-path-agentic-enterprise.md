@@ -408,7 +408,7 @@ Ten achievements, not five stages. No score, no benchmark against peers, no part
 
 ## Mapping WSO2 to the golden path
 
-The path above is vendor neutral. This section is not. It maps WSO2's platform against each step for readers evaluating WSO2 specifically. If you're using a different stack, the achievements and controls above still apply; substitute your own tooling.
+The path above is vendor neutral. This section is not. It maps WSO2's [**Agentic Enterprise Fabric (AEF)**] (https://wso2.com/library/blogs/wso2-agentic-enterprise-fabric/)  against each step for readers evaluating WSO2 specifically. If you're using a different stack, the achievements and controls above still apply; substitute your own tooling.
 
 | Step | WSO2 capability |
 |---|---|
