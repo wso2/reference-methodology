@@ -432,3 +432,4 @@ The path above is vendor neutral. This section is not. It maps WSO2's platform a
 6. Gartner: Over 40% of agentic AI projects will be canceled by end of 2027 (https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027)
 7. Deloitte, State of AI in the Enterprise 2026 (https://www.deloitte.com/us/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html), survey of 3,235 IT and business leaders
 8. ISO/IEC 42001:2023, AI management system; ISO/IEC 42005:2025, AI system impact assessment (https://www.iso.org/standard/42005)
+9. [Abeysinghe, A. (2026). Trusted AI Governance: An architectural thesis for governing agentic systems.](https://github.com/wso2/reference-architecture/blob/master/trusted-ai-governance.md) WSO2 reference-architecture.
