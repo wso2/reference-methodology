@@ -13,7 +13,7 @@ Version: Summer-2026<br/>
 - Derric Giling | GM API Platform BU, [WSO2, Inc](https://wso2.com/)
 - Rania Khalaf | Chief AI Officer, [WSO2, Inc](https://wso2.com/)
 - Ruwan Linton | Chief Customer Officer, [WSO2, Inc](https://wso2.com/)
-- Selvaratnam Uthaiyashankar | Chief Product Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
+- Selvaratnam Uthaiyashankar | Chief Product Officer, [WSO2, Inc](https://wso2.com/) 
 
 
 ## Contents
