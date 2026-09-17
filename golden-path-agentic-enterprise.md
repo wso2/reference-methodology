@@ -7,13 +7,14 @@ Version: Summer-2026<br/>
 </i>
 </p>
  
-**Authors**
+**Authors** *(in alphabetical order)*
+- Asanka Abeysinghe | Chief Technology Officer, [WSO2, Inc](https://wso2.com/) 
+- Mifan Careem | Chief Solutions Officer, [WSO2, Inc](https://wso2.com/)
+- Derric Giling | GM API Platform BU, [WSO2, Inc](https://wso2.com/)
+- Rania Khalaf | Chief AI Officer, [WSO2, Inc](https://wso2.com/)
+- Ruwan Linton | Chief Customer Officer, [WSO2, Inc](https://wso2.com/)
 - Selvaratnam Uthaiyashankar | Chief Product Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
-- Ruwan Linton | Chief Customer Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
-- Rania Khalaf | Chief AI Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
-- Mifan Careem | Chief Solutions Officer, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
-- Derric Giling | GM API Platform BU, [WSO2, Inc](https://wso2.com/) | [@xx](https://twitter.com/)
-- Asanka Abeysinghe | Chief Technology Officer, [WSO2, Inc](https://wso2.com/) | [@asankama](https://twitter.com/asankama)
+
 
 ## Contents
 
