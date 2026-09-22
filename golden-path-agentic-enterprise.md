@@ -59,7 +59,7 @@ Enter wherever you already are. Most enterprises have already made some progress
 
 Every step has the same five questions answered: what you need, why it matters, how you know it's working, who owns it, and what your AI Security & Compliance function will ask about it before signing off. That last part is not an afterthought. Every step on this path that fails does so because governance was bolted on after the fact instead of built into the achievement itself.
 
-![gp timeline](/media/golden-path-diagram-selection.png)
+![gp timeline](/media/golden-path-diagram-selection-V1.png)
 
 Blue steps are efficiency plays: they save time and reduce risk. Green steps are growth plays: they turn the same governed foundation into revenue. Notice that growth never shows up before step 6. You cannot monetize or externalize what you have not first governed.
 
