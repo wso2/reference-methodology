@@ -2,7 +2,7 @@
 <h3 align="center"> A WSO2 Methodology </h3>
 <p align="center">
 <i>
-Version: Summer-2026<br/>
+Version: Fall-2026<br/>
 <b>First Published On: Summer-2026<br/>  </b>
 </i>
 </p>
