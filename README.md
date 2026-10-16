@@ -2,8 +2,6 @@
 
 ![rm banner](/media/rm-banner.png)
 
-A Proven approach to helping every development organization become an integration agile organization
-
 Proven, vendor-neutral approaches for enterprises adopting new ways of working.
 
 - [**The golden path to become an agentic enterprise**](/golden-path-agentic-enterprise.md): Ten sequential achievements for adopting agentic AI, with the governance controls for each one.
